@@ -273,7 +273,7 @@
 							"pm.environment.unset(\"email_env_update\");\r",
 							"\r",
 							"pm.test(\"Test Delete Status code is 200\", function () {\r",
-							"    pm.response.to.have.status(200);\r",
+							"    pm.response.to.have.status(204);\r",
 							"});"
 						],
 						"type": "text/javascript"
